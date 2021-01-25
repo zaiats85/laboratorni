@@ -1,0 +1,19 @@
+table, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+    margin: 0 auto;
+}
+
+td  {
+    min-width: 70px;
+    height: 60px;
+}
+.non-standard {
+    height: 120px
+}
+

@@ -8,7 +8,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: rgb(133,168,219);
+    background: rgb(112,167,223);
     padding: 30px;
     text-align: center;
     font-size: 18px;
@@ -16,28 +16,30 @@ header {
 }
 
 article p {
+    background: rgb(188,230,139);
     float: left;
     width: 60%;
-    background-color: #f1f1f1;
     padding: 10px;
     margin: 0;
 }
 
 article img {
+    background: rgb(147,177,113);
     float: right;
     width: 40%;
     padding: 10px;
 }
 
 /* Clear floats after the columns */
-section::after {
+article::after {
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 
 /* Style the footer */
 footer {
+    background: rgb(64,242,194);
     background-image: url("assets/kpi-18.jpeg");
     background-repeat: no-repeat;
     background-size: cover;

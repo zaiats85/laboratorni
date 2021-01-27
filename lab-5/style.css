@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background: rgb(112,167,223);
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+article p {
+    background: rgb(188,230,139);
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin: 0;
+}
+
+article img {
+    background: rgb(147,177,113);
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+article::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style the footer */
+footer {
+    background: rgb(64,242,194);
+    background-image: url("assets/kpi-18.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+}

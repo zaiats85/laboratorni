@@ -1,0 +1,31 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  padding: 10px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.lab-6-container {
+  text-align: center;
+  h2, p, div {
+    cursor: pointer;
+  }
+
+  div#row-fourth {
+    transition: transform 1.2s;
+  }
+  img {
+    width: 50%;
+  }
+
+  .zoom {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+  }
+
+}

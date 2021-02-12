@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "js",
+    "lib": ["es2018", "dom", "esnext"]
+  },
+  "include": ["./*"],
+  "exclude": ["node_modules"]
+}

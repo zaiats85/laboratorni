@@ -1,0 +1,28 @@
+{
+  "name": "lab-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w sass -o css",
+    "compile-typescript": "tsc",
+    "server": "nodemon run server.js"
+  },
+  "author": "oleg zaiats",
+  "license": "ISC",
+  "dependencies": {
+    "compress-images": "^1.9.8",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^5.0.0",
+    "w3css": "^2.7.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "formidable": "^1.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.4"
+  }
+}

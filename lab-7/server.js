@@ -41,5 +41,5 @@ server.post('/student', function (req, res, next) {
 });
 
 server.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`Server app listening at http://localhost:${port}`)
 });

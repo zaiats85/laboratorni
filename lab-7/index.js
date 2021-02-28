@@ -39,10 +39,14 @@ colorPicker.addEventListener('change', function(){
 });
 
 let submitForm = (event) => {
-    event.preventDefault();
 
     /*form data to json*/
-    let data = Object.fromEntries(new FormData(document.forms['student']));
+    const formStudent = document.forms['student'];
+    if(!formStudent.checkValidity()){
+        throw new Error('form not valid')
+    }
+    const data = Object.fromEntries(new FormData(formStudent));
+    event.preventDefault();
 
     postData(`${endpoint}/student`, data)
         .then((data) => {

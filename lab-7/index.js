@@ -57,8 +57,6 @@ let submitForm = (event) => {
     )
 };
 
-
-// Пример отправки POST запроса:
 async function postData(url = '', data = {}) {
     // Default options are marked with *
     const response = await fetch(url, {

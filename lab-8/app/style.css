@@ -1,0 +1,30 @@
+.main-container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.main-container form {
+    max-width: 920px;
+    margin: 0 auto !important;
+}
+
+form {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    margin: 0 auto;
+    max-width: 300px;
+    position: sticky;
+}
+
+footer {
+    width: 100%;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
